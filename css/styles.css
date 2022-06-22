@@ -516,6 +516,7 @@ display: flex;
    margin-left: auto;
    margin-right: auto;
   
+  
 }
 .form-title{
     font-size: 20px;
@@ -524,34 +525,79 @@ display: flex;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     margin-bottom: 12px;
+    
 }
 
 .form-field{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    
 }
 .form-input{
     padding: 0;
+    background-color: transparentarea;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     height: 40px;
+    cursor: pointer;
 }
  .form-label{
+    display: block;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: var(--primary-text-color);
     margin-bottom: 4px;
+  
  }
 
+.form-area{
+    height: 120px;
+    padding: 12px 16px;
+    background-color: transparentarea;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+    cursor: pointer;
+    margin-bottom: 20px;
 
-        /* footer */
+}
+.form-area::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.btn-submit{
+display: block;
+margin: auto;
+margin-top: 30px;
+width: 200px;
+height: 50px;
+background-color: rgba(24, 140, 232, 1);  
+padding: 10px 55px;    
+border-radius: 4px;
+border-color: transparent ; 
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #FFFFFF;
+font-size: 16px;
+line-height: 1.88;
+font-weight: 700;
+letter-spacing: 0.06em;
+cursor: pointer;
+
+}
+
+
+/* footer */
 footer {
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    
 }
 
  .footer-item {
