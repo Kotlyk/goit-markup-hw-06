@@ -329,10 +329,12 @@
             <form class="form">
                 <div class="form-field">
                 <label for="name" class="form-label">Имя</label>
+                
                 <input class="form-input" type="text" name="user-name" id="name">
                 <svg class="form-icon" width="18" height="18">
                     <use href="./imges/icons.svg#icon-person-black"></use>
                 </svg>
+                
                 </div>
                 
                 <div class="form-field">
@@ -356,8 +358,12 @@
                 <textarea class="form-area" name="comment" id="comment" placeholder="Введите текст"></textarea>
                 </div>
 
-                <input type="checkbox" name="policy" id="policy">
-                <label for="policy">Соглашаюсь с рассылкой и принимаю</label>
+                <label class="policy">
+                <input type="checkbox" name="policy" class="policy-input">
+                <span class="checkbox-icon"></span>
+               Соглашаюсь с рассылкой и принимаю&nbsp;
+               <a href="">Условия договора</a>
+                </label>
                 
                 <button type="submit" class="btn-submit">Отправить</button>
             </form>
