@@ -726,6 +726,62 @@ footer {
 
  }
 
+ .footer-form-mail{
+     margin-left: 93px;
+ }
+  .footer-form-title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: var(--title-color);
+    margin-top: 12px;
+    margin-bottom: 20px;
+    
+  }
+  .footer-form{
+    display: flex;
+    position: relative;
+  }
+
+  .footer-form-input{
+    margin: 0;
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #FFFFFF;
+    background-color: transparent;
+    padding-left: 16px; 
+    cursor: pointer;
+  }
+
+  .footer-btn-submit{
+    margin: 0;
+    margin-left: 12px;
+    background-color: rgba(24, 140, 232, 1);
+    padding: 10px 62px 10px 29px;
+    border-radius: 4px;
+    border-color: transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+
+  }
+
+  .footer-form-icon{
+    position: absolute;
+    top: 13px;
+    right: 28px;
+   
+    fill: #FFFFFF;
+  }
+
+
  /* portfolio */
  /* page nav  */
 
